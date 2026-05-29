@@ -1,23 +1,60 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>Quiz 1 - Listening</title>
+
 <style>
-body { font-family: Arial; max-width: 900px; margin: 30px auto; line-height:1.6 }
-h1, h2 { text-align: center; }
-.section { margin-top: 30px; }
-input { padding:5px }
-button { padding:10px 20px; margin-top:20px; display:block; margin-left:auto; margin-right:auto }
-.correct { background:#c8f7c5 }
-.wrong { background:#f7c5c5 }
-#result { font-size:24px; text-align:center; margin-top:20px; font-weight:bold }
+body {
+    font-family: Arial;
+    max-width: 900px;
+    margin: 30px auto;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+input {
+    padding: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.correct {
+    background: #c8f7c5;
+}
+
+.wrong {
+    background: #f7c5c5;
+}
+
+#result {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
 </style>
 </head>
 
 <body>
 
 <h1>Quiz 1</h1>
+
 <p><b>SECTION 1. QUESTIONS 1–10</b></p>
 <p><b>Complete the notes below.</b></p>
 <p><b>Write TWO WORDS AND/OR A NUMBER for each answer.</b></p>
@@ -34,15 +71,18 @@ button { padding:10px 20px; margin-top:20px; display:block; margin-left:auto; ma
 <p>Price per day: maximum (6) <input id="q6"> euros</p>
 
 <p><b>Other requirements:</b></p>
+
 <p>fully equipped (7) <input id="q7"></p>
 <p>view of (8) <input id="q8"></p>
 <p>air conditioning must be (9) <input id="q9"></p>
 <p>(10) <input id="q10"> for car</p>
 
 <div class="section">
+
 <h2>Section 2</h2>
 
 <h3>Questions 11–12</h3>
+
 <p><b>Complete the sentences below.</b></p>
 <p><b>Write ONE WORD ONLY for each answer.</b></p>
 
@@ -50,15 +90,19 @@ button { padding:10px 20px; margin-top:20px; display:block; margin-left:auto; ma
 <p>12. The program operates in cooperation with (12) <input id="q12"></p>
 
 <h3>Questions 13–16</h3>
+
 <p><b>Choose FOUR answers from the box and write the correct letter, A–F.</b></p>
 
 <p><b>Internship Stipulation</b></p>
-<p>A. home stay<br>
+
+<p>
+A. home stay<br>
 B. no summer program<br>
 C. minimum time requirement<br>
 D. formal report required<br>
 E. specific time period<br>
-F. agriculture</p>
+F. agriculture
+</p>
 
 <p>13. USA (13) <input id="q13"></p>
 <p>14. Australia (14) <input id="q14"></p>
@@ -66,44 +110,105 @@ F. agriculture</p>
 <p>16. India (16) <input id="q16"></p>
 
 <h3>Questions 17–20</h3>
+
 <p><b>Choose the correct letter, A, B or C.</b></p>
 
-<p><b>17. What should you do to get the Global Traveling Certificate?</b><br>
-<label><input type="radio" name="q17" value="a"> A. Record activity every day</label><br>
-<label><input type="radio" name="q17" value="b"> B. Formal report</label><br>
-<label><input type="radio" name="q17" value="c"> C. Talk the experience with the assessor</label>
+<p>
+<b>17. What should you do to get the Global Traveling Certificate?</b><br>
+
+<label>
+<input type="radio" name="q17" value="a">
+A. Record activity every day
+</label><br>
+
+<label>
+<input type="radio" name="q17" value="b">
+B. Formal report
+</label><br>
+
+<label>
+<input type="radio" name="q17" value="c">
+C. Talk the experience with the assessor
+</label>
 </p>
 
-<p><b>18. You can apply for the certificate</b><br>
-<label><input type="radio" name="q18" value="a"> A. only after you come back</label><br>
-<label><input type="radio" name="q18" value="b"> B. while on the trip</label><br>
-<label><input type="radio" name="q18" value="c"> C. before you leave</label>
+<p>
+<b>18. You can apply for the certificate</b><br>
+
+<label>
+<input type="radio" name="q18" value="a">
+A. only after you come back
+</label><br>
+
+<label>
+<input type="radio" name="q18" value="b">
+B. while on the trip
+</label><br>
+
+<label>
+<input type="radio" name="q18" value="c">
+C. before you leave
+</label>
 </p>
 
-<p><b>19. When should you pay the final installment?</b><br>
-<label><input type="radio" name="q19" value="a"> A. The day before you leave</label><br>
-<label><input type="radio" name="q19" value="b"> B. One month before you return</label><br>
-<label><input type="radio" name="q19" value="c"> C. Before you can get your plane ticket</label>
+<p>
+<b>19. When should you pay the final installment?</b><br>
+
+<label>
+<input type="radio" name="q19" value="a">
+A. The day before you leave
+</label><br>
+
+<label>
+<input type="radio" name="q19" value="b">
+B. One month before you return
+</label><br>
+
+<label>
+<input type="radio" name="q19" value="c">
+C. Before you can get your plane ticket
+</label>
 </p>
 
-<p><b>20. Before your application, you need</b><br>
-<label><input type="radio" name="q20" value="a"> A. to take a health check</label><br>
-<label><input type="radio" name="q20" value="b"> B. to attend the workshop</label><br>
-<label><input type="radio" name="q20" value="c"> C. to meet people with whom you will work</label>
+<p>
+<b>20. Before your application, you need</b><br>
+
+<label>
+<input type="radio" name="q20" value="a">
+A. to take a health check
+</label><br>
+
+<label>
+<input type="radio" name="q20" value="b">
+B. to attend the workshop
+</label><br>
+
+<label>
+<input type="radio" name="q20" value="c">
+C. to meet people with whom you will work
+</label>
 </p>
 
 </div>
 
-<button type="button" onclick="submitTest()">Submit</button>
+<button type="button" onclick="submitTest()">
+Submit
+</button>
+
 <div id="result"></div>
 
 <script>
+
 const answers = {
+
 q1:["leo blucher"],
 q2:["blumengasse"],
 q3:["431211057"],
+
 q4:["1st","first"],
-q5:["9 days","nine days"],
+
+q5:["9 days","nine days","9 day"],
+
 q6:["200"],
 q7:["kitchen"],
 q8:["sea"],
@@ -122,57 +227,79 @@ q17:["a"],
 q18:["a"],
 q19:["b"],
 q20:["a"]
+
 };
 
 function normalize(val){
-return val.toLowerCase().trim().replace(/\s+/g," ");
+    return val
+        .toLowerCase()
+        .trim()
+        .replace(/\s+/g, " ");
 }
 
-function isCorrect(key, user, correct){
-if(user === correct) return true;
-
-// flexible answers
-if(key==="q4" && (user==="1st" || user==="first")) return true;
-if(key==="q5" && (user==="9 days" || user==="9 day")) return true;
-
-return false;
+function isCorrect(key, user){
+    return answers[key].includes(user);
 }
 
 function submitTest(){
-let score = 0;
-let total = 20;
 
-for(let key in answers){
+    let score = 0;
 
-let user="";
-let el=document.getElementById(key);
-let selected=document.querySelector(`input[name="${key}"]:checked`);
+    for(let key in answers){
 
-if(el) user=normalize(el.value);
-if(selected) user=selected.value;
+        let user = "";
 
-let correct=answers[key];
+        let el = document.getElementById(key);
 
-if(isCorrect(key,user,correct)){
-score++;
-if(el) el.classList.add("correct");
-if(selected) selected.parentElement.classList.add("correct");
-}else{
-if(el) el.classList.add("wrong");
-if(selected) selected.parentElement.classList.add("wrong");
+        let selected = document.querySelector(`input[name="${key}"]:checked`);
+
+        if(el){
+            user = normalize(el.value);
+        }
+
+        if(selected){
+            user = selected.value;
+        }
+
+        if(isCorrect(key, user)){
+
+            score++;
+
+            if(el){
+                el.classList.add("correct");
+            }
+
+            if(selected){
+                selected.parentElement.classList.add("correct");
+            }
+
+        } else {
+
+            if(el){
+                el.classList.add("wrong");
+            }
+
+            if(selected){
+                selected.parentElement.classList.add("wrong");
+            }
+        }
+    }
+
+    document.getElementById("result").innerHTML =
+        `Score: ${score}/20`;
+
+    document.getElementById("result")
+        .scrollIntoView({behavior:"smooth"});
+
+    document.querySelectorAll("input")
+        .forEach(i => i.disabled = true);
+
+    document.querySelector("button")
+        .disabled = true;
 }
-}
 
-// result
-let resultDiv=document.getElementById("result");
-resultDiv.innerHTML=`Score: ${score}/20`;
-resultDiv.scrollIntoView({behavior:"smooth"});
-
-// lock inputs
-document.querySelectorAll("input").forEach(i=>i.disabled=true);
-document.querySelector("button").disabled=true;
-}
 </script>
 
 </body>
 </html>
+```
